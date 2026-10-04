@@ -1,0 +1,11 @@
+case_id,age,scan_type,lesion_present,lesion_size_mm,midline_shift_mm,edema_present,radiology_impression,demo_label
+BR_A01,58,MRI_T2,1,16.5,2.4,1,"Synthetic report: Hyperintense mass in left parietal lobe with surrounding Vasogenic Edema. Midline shift measured at 2.4mm.",1
+BR_A02,34,CT,0,0.0,0.0,0,"Synthetic report: Unremarkable non-contrast head CT. No evidence of acute intracranial hemorrhage or mass effect.",0
+BR_A03,62,MRI_T1,1,24.1,4.8,1,"Synthetic report: Prominent lesion with severe mass effect and 4.8mm midline shift towards right hemisphere.",1
+BR_A04,45,MRI_T2,0,0.0,0.0,0,"Synthetic report: Ventricles and sulci normal for patient age. No abnormal signal intensity detected.",0
+BR_A05,71,CT,1,11.2,1.1,0,"Synthetic report: Small hyperdense focus observed. Minimal surrounding tissue displacement.",1
+BR_A06,29,MRI_T1,0,0.0,0.0,0,"Synthetic report: Brain parenchyma demonstrates normal signal intensity throughout. Intracranial structures intact.",0
+BR_A07,66,MRI_T2,1,19.8,3.2,1,"Synthetic report: Significant vasogenic edema secondary to temporal lobe lesion with 3.2mm shift.",1
+BR_A08,51,CT,0,0.0,0.0,0,"Synthetic report: No focal lesion, midline shift, or acute ischemic change identified.",0
+BR_A09,74,MRI_T1,1,28.5,5.6,1,"Synthetic report: Large space-occupying lesion with pronounced mass effect and 5.6mm shift.",1
+BR_A10,39,MRI_T2,0,0.0,0.0,0,"Synthetic report: Normal brain MRI examination without acute abnormality.",0

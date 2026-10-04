@@ -1,0 +1,6 @@
+case_id,age,scan_type,lesion_present,lesion_size_mm,midline_shift_mm,edema_present,radiology_impression,demo_label
+BR_C01,60,MRI_T2,1,18.2,2.8,1,"Synthetic report: Parietal lesion with 2.8mm midline shift.",1
+BR_C02,32,CT,0,0.0,0.0,0,"Synthetic report: Scan within normal limits.",0
+BR_C03,70,MRI_T1,1,25.0,5.0,1,"Synthetic report: Significant mass effect observed.",1
+BR_C04,48,MRI_T2,0,0.0,0.0,0,"Synthetic report: Unremarkable examination.",0
+BR_C05,65,CT,1,10.5,0.8,0,"Synthetic report: Small hyperdensity noted.",1

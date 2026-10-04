@@ -1,0 +1,353 @@
+
+.training-page {
+  min-height: 100vh;
+  padding: 32px;
+  background: #f6f8fc;
+  color: #182238;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.training-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 26px;
+}
+
+.training-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #6559df;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+.training-header h1 {
+  margin: 10px 0 7px;
+  font-size: clamp(27px, 3vw, 35px);
+  letter-spacing: -1px;
+}
+
+.training-header p,
+.training-panel-title p {
+  margin: 0;
+  color: #8490a5;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.training-demo-badge {
+  padding: 9px 12px;
+  border-radius: 9px;
+  background: #efedff;
+  border: 1px solid #d5d0ff;
+  color: #6559df;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.training-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.training-stat,
+.training-panel {
+  min-width: 0;
+  border: 1px solid #e8edf4;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 5px 20px rgba(29, 43, 75, 0.025);
+}
+
+.training-stat { padding: 20px; }
+
+.training-icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+}
+
+.training-icon svg { width: 21px; height: 21px; }
+.purple-bg { color: #695ce5; background: #efedff; }
+.blue-bg { color: #3489e9; background: #e7f2ff; }
+.green-bg { color: #159b77; background: #e4f8f1; }
+.orange-bg { color: #e99128; background: #fff3df; }
+
+.training-stat p {
+  margin: 17px 0 7px;
+  color: #78869c;
+  font-size: 12px;
+}
+
+.training-stat h2 {
+  margin: 0 0 7px;
+  font-size: 27px;
+  letter-spacing: -0.8px;
+}
+
+.training-stat small {
+  color: #9aa4b5;
+  font-size: 10px;
+}
+
+.training-content-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+}
+
+.training-panel { padding: 23px; }
+
+.training-panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.training-panel-title h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  letter-spacing: -0.3px;
+}
+
+.workflow-step {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 15px 13px;
+  border: 1px solid #edf0f6;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.workflow-number {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: #efedff;
+  color: #6559df;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.workflow-step > div { flex: 1; }
+
+.workflow-step strong,
+.participant-details strong,
+.privacy-note strong {
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.workflow-step p {
+  margin: 5px 0 0;
+  color: #8490a5;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.workflow-connector {
+  width: 2px;
+  height: 13px;
+  margin-left: 29px;
+  background: #dcd8ff;
+}
+
+.training-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 23px;
+}
+
+.start-training-btn,
+.reset-training-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  min-height: 43px;
+  padding: 0 15px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.start-training-btn {
+  border: 0;
+  background: linear-gradient(110deg, #6559df, #8c69d8);
+  color: white;
+}
+
+.start-training-btn:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.reset-training-btn {
+  border: 1px solid #e1e6ef;
+  background: white;
+  color: #56647a;
+}
+
+.training-feedback,
+.training-success {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.training-feedback {
+  background: #f0edff;
+  color: #6559df;
+}
+
+.training-success {
+  background: #e9f9f1;
+  color: #13795b;
+}
+
+.training-spinner {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  border: 2px solid #c7c0ff;
+  border-top-color: #6559df;
+  border-radius: 50%;
+  animation: training-spin 0.7s linear infinite;
+}
+
+@keyframes training-spin {
+  to { transform: rotate(360deg); }
+}
+
+.participant-count {
+  display: grid;
+  place-items: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 10px;
+  background: #efedff;
+  color: #6559df;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 14px 0;
+  border-bottom: 1px solid #edf0f5;
+}
+
+.participant-avatar {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #f0edff;
+  color: #6559df;
+}
+
+.participant-details {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.participant-details strong {
+  overflow-wrap: anywhere;
+  color: #39465d;
+}
+
+.participant-details span {
+  color: #929db0;
+  font-size: 11px;
+}
+
+.participant-status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #159b77;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.participant-status > span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #159b77;
+}
+
+.privacy-note {
+  display: flex;
+  gap: 11px;
+  margin-top: 23px;
+  padding: 15px;
+  border: 1px solid #d9f2e6;
+  border-radius: 12px;
+  background: #f0fbf6;
+  color: #159b77;
+}
+
+.privacy-note svg { flex-shrink: 0; }
+
+.privacy-note p {
+  margin: 6px 0 0;
+  color: #648477;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.last-round-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 17px;
+  color: #929db0;
+  font-size: 11px;
+}
+
+@media (max-width: 1050px) {
+  .training-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .training-content-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .training-page { padding: 20px 14px; }
+  .training-stat { padding: 14px; }
+  .training-stat h2 { font-size: 23px; }
+  .training-stat small { font-size: 9px; }
+  .training-panel { padding: 15px; }
+  .workflow-step { gap: 9px; padding: 12px 9px; }
+  .workflow-step p { font-size: 10px; }
+  .participant-item { gap: 8px; }
+}

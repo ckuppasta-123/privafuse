@@ -1,0 +1,6 @@
+case_id,age,scan_type,lesion_present,lesion_size_mm,midline_shift_mm,edema_present,radiology_impression,demo_label
+BR_B01,52,MRI_T2,1,14.8,1.9,1,"Synthetic report: Moderate size lesion with surrounding edema in occipital region.",1
+BR_B02,38,CT,0,0.0,0.0,0,"Synthetic report: Normal CT head examination. No acute intracranial pathology.",0
+BR_B03,67,MRI_T1,1,21.4,3.9,1,"Synthetic report: Frontal lobe mass effect with 3.9mm midline displacement.",1
+BR_B04,41,MRI_T2,0,0.0,0.0,0,"Synthetic report: Brain MRI unremarkable.",0
+BR_B05,73,CT,1,13.5,1.5,0,"Synthetic report: Hyperdense lesion identified.",1
